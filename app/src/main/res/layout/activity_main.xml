@@ -43,15 +43,6 @@
         android:textStyle="bold"
         android:typeface="sans" />
 
-    TextView
-    android:id="@+id/txtFeelsLike"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:gravity="center"
-    android:text="Feels Like 85"
-    android:textSize="20dp"
-    android:textStyle="bold"
-    android:typeface="sans" />
 
     <TextView
         android:id="@+id/txtObservationTime"
@@ -63,24 +54,6 @@
         android:textStyle="bold|italic"
         android:typeface="sans" />
 
-    <ImageView
-        android:id="@+id/ivMap"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:paddingBottom="2dp"
-        android:paddingTop="2dp"
-        android:src="@drawable/map" />
-
-
-    <ImageButton
-        android:id="@+id/ibWuLink"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:onClick="openForecast"
-        android:src="@drawable/logo_130x80" />
-
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -88,12 +61,5 @@
         android:layout_gravity="center_horizontal"
         android:onClick="manuallyUpdateConditions"
         android:text="Update" />
-
-    <TextView
-        android:id="@+id/txtForecastLink"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:visibility="invisible" />
-
 
 </LinearLayout>
