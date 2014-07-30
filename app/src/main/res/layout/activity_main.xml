@@ -62,4 +62,64 @@
         android:onClick="manuallyUpdateConditions"
         android:text="Update" />
 
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+        <TableRow>
+            <TextView android:id="@+id/tvToday" />
+            <TextView android:id="@+id/tvHighToday" />
+            <TextView android:id="@+id/tvWeatherToday" />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:id="@+id/tvTonight"/>
+            <TextView android:id="@+id/tvLowTonight" />
+            <TextView android:id="@+id/tvWeatherTonight" />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:id="@+id/tvTomorrow" />
+            <TextView android:id="@+id/tvHighTomorrow"  />
+            <TextView android:id="@+id/tvWeatherTomorrow" />
+        </TableRow>
+        <TableRow>
+            <TextView android:id="@+id/tvTomorrowNight"  />
+            <TextView android:id="@+id/tvLowTomorrow" />
+            <TextView android:id="@+id/tvWeatherTomorrowNight" />
+        </TableRow>
+        <TableRow>
+            <TextView android:id="@+id/tvDay3" />
+            <TextView android:id="@+id/tvHighDay3" />
+            <TextView android:id="@+id/tvWeatherDay3" />
+        </TableRow>
+        <TableRow>
+            <TextView android:id="@+id/tvDay3Night" />
+            <TextView android:id="@+id/tvLowDay3" />
+            <TextView android:id="@+id/tvWeatherDay3Night" />
+        </TableRow>
+        <TableRow>
+            <TextView android:id="@+id/tvDay4" />
+            <TextView android:id="@+id/tvHighDay4" />
+            <TextView android:id="@+id/tvWeatherDay4" />
+        </TableRow>
+        <TableRow>
+            <TextView android:id="@+id/tvDay4Night" />
+            <TextView android:id="@+id/tvLowDay4" />
+            <TextView android:id="@+id/tvWeatherDay4Night" />
+        </TableRow>
+        <TableRow>
+            <TextView android:id="@+id/tvDay5" />
+            <TextView android:id="@+id/tvHighDay5" />
+            <TextView android:id="@+id/tvWeatherDay5" />
+        </TableRow>
+        <TableRow>
+            <TextView android:id="@+id/tvDay5Night"  />
+            <TextView android:id="@+id/tvLowDay5" />
+            <TextView android:id="@+id/tvWeatherDay5Night" />
+        </TableRow>
+    </TableLayout>
+
 </LinearLayout>
